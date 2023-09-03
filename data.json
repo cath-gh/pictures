@@ -1,0 +1,209 @@
+{
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": "",
+      "_configName": "Default",
+      "_id": "77a36d8d-057a-4098-acb0-d997187ec6ef",
+      "_createdAt": 1692166318454,
+      "_updatedAt": 1692166318454
+    },
+    "github": {
+      "_configName": "gh-pictures",
+      "repo": "cath-gh/pictures",
+      "branch": "main",
+      "token": "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",
+      "customUrl": "https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/",
+      "_id": "87fdabba-ae70-4f87-b83d-104ff9038035",
+      "_createdAt": 1692686268757,
+      "_updatedAt": 1692686268757
+    },
+    "tcyun": {
+      "_configName": "Default",
+      "_id": "56254803-5dde-48dd-8ade-9499795518b7",
+      "_createdAt": 1692166329302,
+      "_updatedAt": 1692166329302
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": false
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": true
+      }
+    ],
+    "proxy": "",
+    "local": {
+      "_configName": "Default",
+      "_id": "f94b314f-dfc9-4dae-b65e-ded626b330d2",
+      "_createdAt": 1692686282681,
+      "_updatedAt": 1692686282681
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": true,
+    "privacyEnsure": true,
+    "npmProxy": "",
+    "npmRegistry": "",
+    "pasteStyle": "HTML",
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "miniWindowPosition": [
+      1500,
+      760
+    ],
+    "isListeningClipboard": false,
+    "deleteCloudFile": true,
+    "proxy": "",
+    "registry": "",
+    "sync": {
+      "type": "github",
+      "username": "cath-gh",
+      "repo": "pictures",
+      "branch": "main",
+      "token": "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",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false,
+  "uploader": {
+    "smms": {
+      "configList": [
+        {
+          "token": "",
+          "_configName": "Default",
+          "_id": "77a36d8d-057a-4098-acb0-d997187ec6ef",
+          "_createdAt": 1692166318454,
+          "_updatedAt": 1692166318454
+        }
+      ],
+      "defaultId": "77a36d8d-057a-4098-acb0-d997187ec6ef"
+    },
+    "github": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "c971552d-ca18-4e5f-b2a1-3e3404b4f93f",
+          "_createdAt": 1692686014195,
+          "_updatedAt": 1692686014195
+        },
+        {
+          "_configName": "gh-pictures",
+          "repo": "cath-gh/pictures",
+          "branch": "main",
+          "token": "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",
+          "customUrl": "https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/",
+          "_id": "87fdabba-ae70-4f87-b83d-104ff9038035",
+          "_createdAt": 1692686268757,
+          "_updatedAt": 1692686268757
+        }
+      ],
+      "defaultId": "87fdabba-ae70-4f87-b83d-104ff9038035"
+    },
+    "tcyun": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "56254803-5dde-48dd-8ade-9499795518b7",
+          "_createdAt": 1692166329302,
+          "_updatedAt": 1692166329302
+        }
+      ],
+      "defaultId": "56254803-5dde-48dd-8ade-9499795518b7"
+    },
+    "local": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "f94b314f-dfc9-4dae-b65e-ded626b330d2",
+          "_createdAt": 1692686282681,
+          "_updatedAt": 1692686282681
+        }
+      ],
+      "defaultId": "f94b314f-dfc9-4dae-b65e-ded626b330d2"
+    }
+  },
+  "picgoPlugins": {},
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "buildIn": {
+    "compress": {
+      "quality": 75,
+      "isConvert": false,
+      "convertFormat": "jpg",
+      "isReSize": false,
+      "reSizeWidth": 500,
+      "reSizeHeight": 500,
+      "skipReSizeOfSmallImg": false,
+      "isReSizeByPercent": false,
+      "reSizePercent": 50,
+      "isRotate": false,
+      "rotateDegree": 0,
+      "isRemoveExif": false
+    },
+    "watermark": {
+      "isAddWatermark": false,
+      "watermarkType": "text",
+      "isFullScreenWatermark": false,
+      "watermarkDegree": 0,
+      "watermarkText": "",
+      "watermarkFontPath": "",
+      "watermarkScaleRatio": 0.15,
+      "watermarkColor": "#CCCCCC73",
+      "watermarkImagePath": "",
+      "watermarkPosition": "southeast"
+    }
+  }
+}
